@@ -1,7 +1,8 @@
 const fs = require('fs');
 
 let saveToJSONFile = (payload) => {
-  const jsonFilePath = '../links.json';
+  console.log('writing to json');
+  const jsonFilePath = './links.json';
   let jsonString = JSON.stringify(payload);
 
   fs.writeFileSync(jsonFilePath, jsonString);
