@@ -4,7 +4,7 @@
   "description": "Batch downloads a full album from music.com.bd",
   "main": "app.js",
   "bin": {
-    "music-dl": "./app.js"
+    "bd-music-dl": "./app.js"
   },
   "repository": {
     "type": "git",

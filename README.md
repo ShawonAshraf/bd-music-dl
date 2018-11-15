@@ -1,12 +1,30 @@
 # bd-music-dl
-Batch downloads a full album from music.com.bd
+Batch downloads a full album from [music.com.bd](https://www.music.com.bd/)
 
 ## Why though
 One problem I faced on the website was that, older albums don't have an option to download
 all the songs as as a compressed (zip) folder. Which means I had to download all the songs one by
 one - it's 2018, we need to automate things! Hence this one.
 
-## Run and Install
+
+## Installing as a CLI tool
+To use it as a CLI tool from your shell/ command prompt, install it first from `npm`
+```bash
+npm install -G bd-music-dl
+```
+## Using it as a CLI tool
+Format -
+```bash
+node app.js --link=link_to_album --path=download_dir_on_your_pc
+```
+
+Example -
+```bash
+node app.js --link=https://www.music.com.bd/download/browse/A/Arnob/Hok%20Kolorob/ --path=/Users/shawon/Desktop/Songs
+```
+
+
+## Dev
 
 Clone the repo and then `cd` into the directory. Then install dependencies for the project.
 
@@ -17,7 +35,7 @@ npm install
 Next up, run the `app.js` file using `node` from your command line. The command should be like this
 
 ```bash
-node app.js --link=Link to the album you want to download --path=Directory on your computer where you want to download files
+node app.js --link=link_to_album --path=download_dir_on_your_pc
 ```
 
 
