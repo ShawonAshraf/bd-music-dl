@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Batch downloads a full album from music.com.bd",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "music-dl": "./app.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,11 @@
   },
   "keywords": [
     "batch-download",
-    "scraping"
+    "scraping",
+    "http",
+    "get",
+    "file",
+    "music"
   ],
   "author": "Shawon Ashraf",
   "license": "MIT",
