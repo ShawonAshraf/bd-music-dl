@@ -19,12 +19,12 @@ npm install -g bd-music-dl
 ## Using it as a CLI tool
 Format -
 ```bash
-node app.js --link=link_to_album --path=download_dir_on_your_pc
+bd-music-dl --link=link_to_album --path=download_dir_on_your_pc
 ```
 
 Example -
 ```bash
-node app.js --link=https://www.music.com.bd/download/browse/A/Arnob/Hok%20Kolorob/ --path=/Users/shawon/Desktop/Songs
+bd-music-dl --link=https://www.music.com.bd/download/browse/A/Arnob/Hok%20Kolorob/ --path=/Users/shawon/Desktop/Songs
 ```
 
 
