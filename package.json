@@ -1,0 +1,23 @@
+{
+  "name": "bd-music-dl",
+  "version": "1.0.0",
+  "description": "Batch downloads a full album from music.com.bd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawonAshraf/bd-music-dl.git"
+  },
+  "keywords": [
+    "batch-download",
+    "scraping"
+  ],
+  "author": "Shawon Ashraf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShawonAshraf/bd-music-dl/issues"
+  },
+  "homepage": "https://github.com/ShawonAshraf/bd-music-dl#readme"
+}
