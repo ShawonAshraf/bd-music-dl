@@ -8,8 +8,8 @@ let getCorrectlyEncodedDownloadUrl = (songUrl) => {
 
 // get the song file name from the url
 let getFileName = (songUrl) => {
-  let fileName = songUrl.split(' - ')[1];
-  return fileName;
+  let tokens = songUrl.split(' - ');
+  return tokens[tokens.length - 1];
 };
 
 
