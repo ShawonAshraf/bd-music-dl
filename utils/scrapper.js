@@ -4,7 +4,8 @@ const cheerio = require('cheerio');
 const urlProcessor = require('./process-urls');
 const linkSaver = require('./save-links-json');
 
-let scrap = (url) => {
+let scrap = async (url) => {
+  console.log("scrap");
   request(url, (error, response, html) => {
     if (error) {
       console.log(error.toString());
