@@ -10,7 +10,7 @@ one - it's 2018, we need to automate things! Hence this one.
 ## Installing as a CLI tool
 To use it as a CLI tool from your shell/ command prompt, install it first from `npm`
 ```bash
-npm install -G bd-music-dl
+npm install -g bd-music-dl
 ```
 ## Using it as a CLI tool
 Format -
