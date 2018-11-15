@@ -1,5 +1,5 @@
 # bd-music-dl
-Batch downloads a full album from [music.com.bd](https://www.music.com.bd/)
+A CLI tool to batch download all the songs from an album from [music.com.bd](https://www.music.com.bd/)
 
 ## Why though
 One problem I faced on the website was that, older albums don't have an option to download
