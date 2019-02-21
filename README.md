@@ -10,6 +10,34 @@ One problem I faced on the website was that, older albums don't have an option t
 all the songs as as a compressed (zip) folder. Which means I had to download all the songs one by
 one - it's 2018, we need to automate things! Hence this one.
 
+## Using as a node module
+Install via `NPM` or `Yarn`
+```bash
+npm i -S bd-music-dl
+
+# or via yarn
+yarn add bd-music-dl
+```
+`require` the module in your code.
+
+```javascript
+const { scrapper, downloader } = require('bd-music-dl);
+
+// url of the album
+const url = 'https://www.music.com.bd/download/browse/A/Arnob/Hok%20Kolorob/';
+
+let scrap = async () => {
+  console.log('Preparing the downloader ...');
+  await scrapper.scrap(url);
+};
+
+scrap().then(() => {
+  console.log('Downloading ... grab a cup of coffee or something chilled while this works!');
+  downloader.download(downloadPath);
+}).catch((e) => {
+  console.log(e.toString());
+});
+```
 
 ## Installing as a CLI tool
 To use it as a CLI tool from your shell/ command prompt, install it first from `npm`

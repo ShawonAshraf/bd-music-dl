@@ -20,3 +20,7 @@ scrap().then(() => {
   console.log(e.toString());
 });
 
+module.exports = {
+  scrapper,
+  downloader
+};
