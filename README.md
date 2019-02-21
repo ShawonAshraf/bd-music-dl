@@ -23,6 +23,9 @@ yarn add bd-music-dl
 ```javascript
 const { scrapper, downloader } = require('bd-music-dl');
 
+// download path
+const downloadPath = 'where you want the album to be downloaded';
+
 // url of the album
 const url = 'https://www.music.com.bd/download/browse/A/Arnob/Hok%20Kolorob/';
 
