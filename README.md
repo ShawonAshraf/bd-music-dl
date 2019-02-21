@@ -21,7 +21,7 @@ yarn add bd-music-dl
 `require` the module in your code.
 
 ```javascript
-const { scrapper, downloader } = require('bd-music-dl);
+const { scrapper, downloader } = require('bd-music-dl');
 
 // url of the album
 const url = 'https://www.music.com.bd/download/browse/A/Arnob/Hok%20Kolorob/';
