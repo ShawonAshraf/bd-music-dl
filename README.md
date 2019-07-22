@@ -3,7 +3,7 @@ A CLI tool to batch download all the songs from an album from [music.com.bd](htt
 
 [![NPM](https://nodei.co/npm/bd-music-dl.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bd-music-dl/)
 
-[![npm version](https://badge.fury.io/js/bd-music-dl.svg)](https://badge.fury.io/js/bd-music-dl)
+[![npm version](https://badge.fury.io/js/bd-music-dl.svg)](https://badge.fury.io/js/bd-music-dl) [![CodeFactor](https://www.codefactor.io/repository/github/shawonashraf/bd-music-dl/badge)](https://www.codefactor.io/repository/github/shawonashraf/bd-music-dl)
 
 ## Why though
 One problem I faced on the website was that, older albums don't have an option to download
