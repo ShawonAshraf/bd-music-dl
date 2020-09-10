@@ -1,6 +1,6 @@
 {
   "name": "bd-music-dl",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A CLI tool to batch download all the songs from an album from music.com.bd",
   "main": "app.js",
   "bin": {
